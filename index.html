@@ -31,15 +31,15 @@
             <div class="grid md:grid-cols-3 gap-10">
                 <div class="card w-72 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="./images/triangle.png" alt="Shoes" class="rounded-xl w-full" />
+                      <img src="./images/triangle.png" alt="Shoes" class="rounded-xl w-full h-36" />
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title text-2xl font-semibold">Triangle</h2>
-                      <p class="text-xl">Area (A) = 0.5 <i class="fa-solid fa-xmark"></i> b <i class="fa-solid fa-xmark"></i> h</p>
+                      <p class="text-xl">Area (A) = <span id="tringle-side1">0.5</span> <i class="fa-solid fa-xmark"></i> <span id="tringle-side2">p</span> <i class="fa-solid fa-xmark"></i> <span id="tringle-side3">h</span></p>
                       <div class="flex gap-3">
-                        <input class="p-1 pl-2 rounded-md w-20 bg-slate-100" type="text" placeholder="b">
+                        <input id="triangle-b" class="p-1 pl-2 rounded-md w-20 bg-slate-100" type="text" placeholder="b">
                         <p>cm</p>
-                        <input class="p-1 pl-2 rounded-md w-20 bg-slate-100" type="text" placeholder="h">
+                        <input id="triangle-h" class="p-1 pl-2 rounded-md w-20 bg-slate-100" type="text" placeholder="h">
                         <p>cm</p>
                     </div>
                     <button id="triangle-btn" class="bg-blue-500 rounded-lg p-2 text-white w-full mt-5 font-semibold text-xl hover:bg-blue-600">Calculate</button>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="card w-72 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="./images/rectangle.png" alt="Shoes" class="rounded-xl w-full" />
+                      <img src="./images/rectangle.png" alt="Shoes" class="rounded-xl w-full h-36" />
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">Rectangle</h2>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="card w-72 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="./images/parallelogram.png" alt="Shoes" class="rounded-xl" />
+                      <img src="./images/parallelogram.png" alt="Shoes" class="rounded-xl w-full h-36" />
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">Parallelogram</h2>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="card w-72 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="./images/rhombus.png" alt="Shoes" class="rounded-xl" />
+                      <img src="./images/rhombus.png" alt="Shoes" class="rounded-xl w-full h-36" />
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">Rhombus</h2>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="card w-72 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="./images/pentagon.png" alt="Shoes" class="rounded-xl" />
+                      <img src="./images/pentagon.png" alt="Shoes" class="rounded-xl w-full h-36" />
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">Pentagon</h2>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="card w-72 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                      <img src="./images/ellipse.png" alt="Shoes" class="rounded-xl" />
+                      <img src="./images/ellipse.png" alt="Shoes" class="rounded-xl w-full h-36" />
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">Ellipse</h2>
