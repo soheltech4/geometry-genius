@@ -146,11 +146,6 @@ document.getElementById('blog-btn').addEventListener('click', function(){
 
 // For Random Color Cart
 
-// document.getElementsByClassName('card').addEventListener('mouseover', function(){
-//     const Card = document.getElementsByClassName('card')
-//     Card.style.backgroundColor = randomColor();
-// })
-
 document.getElementById('card-1').addEventListener("mouseover", function(){
     const Card1 = document.getElementById('card-1')
     Card1.style.backgroundColor = randomColor();
