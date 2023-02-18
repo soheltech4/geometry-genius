@@ -36,14 +36,14 @@ function SetValue(inputId, OutputId){
 
 
 // Function To Create Table
-function GetTableData(data1, data2, data3, button){
+function GetTableData(data1, data2, data3){
     const container = document.getElementById('table-container')
     const tr = document.createElement('tr')
+    const button = document.createElement('button')
     tr.innerHTML = `
     <td>${data1}</td>
     <td>${data2}</td>
-    <td>${data3} cm<sup>2</sup></td> 
-    <td>${button}</td> 
+    <td>${data3} cm<sup>2</sup></td>
 `
 container.appendChild(tr)
 }
