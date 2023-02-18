@@ -111,8 +111,8 @@ document.getElementById('pentagon-btn').addEventListener('click', function(){
 })
 
 document.getElementById('ellipse-btn').addEventListener('click', function(){
-    const ValueD1 = GetValue('ellipse-p')
-    const ValueD2 = GetValue('ellipse-h')
+    const ValueD1 = GetValue('ellipse-a')
+    const ValueD2 = GetValue('ellipse-b')
 
     if(isNaN(ValueD1) == true || isNaN(ValueD2)== true || ValueD1 == " " || ValueD2 == " "){
         return alert('Please Input Valid Number')
