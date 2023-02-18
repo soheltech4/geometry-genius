@@ -1,3 +1,14 @@
+
+// Function for Random Color
+function randomColor() {
+    let color = [];
+    for (let i = 0; i < 3; i++) {
+      color.push(Math.floor(Math.random() * 256));
+    }
+    return 'rgb(' + color.join(', ') + ')';
+  } 
+
+
 // Function To get input Value
 function GetValue(inputId){
     const InputValueElement = document.getElementById(inputId)
@@ -36,3 +47,5 @@ function GetTableData(data1, data2, data3, button){
 `
 container.appendChild(tr)
 }
+
+

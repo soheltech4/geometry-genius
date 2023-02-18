@@ -4,7 +4,7 @@ document.getElementById('triangle-btn').addEventListener('click', function(){
     const TriangleValueH = GetValue('triangle-h')
 
     if(isNaN(TriangleValueB) == true || isNaN(TriangleValueH)== true || TriangleValueB == " " || TriangleValueH == " "){
-        return alert('Please Give Valid Number')
+        return alert('Please Input Valid Number')
     }
 
     serial +=1;
@@ -21,15 +21,12 @@ document.getElementById('triangle-btn').addEventListener('click', function(){
     GetTableData(serial, TriangleName, TriangleTotalValue)
 })
 
-
-
-
 document.getElementById('rectangle-btn').addEventListener('click', function(){
     const ValueW = GetValue('rectangle-W')
     const ValueI = GetValue('rectangle-I')
 
     if(isNaN(ValueW) == true || isNaN(ValueI)== true || ValueW == " " || ValueI == " "){
-        return alert('Please Give Valid Number')
+        return alert('Please Input Valid Number')
     }
 
     serial +=1;
@@ -46,13 +43,12 @@ document.getElementById('rectangle-btn').addEventListener('click', function(){
 })
 
 
-
 document.getElementById('parallelogram-btn').addEventListener('click', function(){
     const ValueW = GetValue('parallelogram-b')
     const ValueI = GetValue('parallelogram-h')
 
     if(isNaN(ValueW) == true || isNaN(ValueI)== true || ValueW == " " || ValueI == " "){
-        return alert('Please Give Valid Number')
+        return alert('Please Input Valid Number')
     }
 
     serial +=1;
@@ -74,7 +70,7 @@ document.getElementById('rhombus-btn').addEventListener('click', function(){
     const ValueD2 = GetValue('rhombus-d2')
 
     if(isNaN(ValueD1) == true || isNaN(ValueD2)== true || ValueD1 == " " || ValueD2 == " "){
-        return alert('Please Give Valid Number')
+        return alert('Please Input Valid Number')
     }
 
     serial +=1;
@@ -97,7 +93,7 @@ document.getElementById('pentagon-btn').addEventListener('click', function(){
     const ValueD2 = GetValue('pentagon-b')
 
     if(isNaN(ValueD1) == true || isNaN(ValueD2)== true || ValueD1 == " " || ValueD2 == " "){
-        return alert('Please Give Valid Number')
+        return alert('Please Input Valid Number')
     }
 
     serial +=1;
@@ -119,7 +115,7 @@ document.getElementById('ellipse-btn').addEventListener('click', function(){
     const ValueD2 = GetValue('ellipse-h')
 
     if(isNaN(ValueD1) == true || isNaN(ValueD2)== true || ValueD1 == " " || ValueD2 == " "){
-        return alert('Please Give Valid Number')
+        return alert('Please Input Valid Number')
     }
 
     serial +=1;
@@ -136,6 +132,48 @@ document.getElementById('ellipse-btn').addEventListener('click', function(){
     GetTableData(serial, Name, TotalValue)
 })
 
+
+
+
+// For New Blog Question and Answer
+
 document.getElementById('blog-btn').addEventListener('click', function(){
     window.location.href = 'blog.html'
 })
+
+
+
+
+// For Random Color Cart
+
+// document.getElementsByClassName('card').addEventListener('mouseover', function(){
+//     const Card = document.getElementsByClassName('card')
+//     Card.style.backgroundColor = randomColor();
+// })
+
+document.getElementById('card-1').addEventListener("mouseover", function(){
+    const Card1 = document.getElementById('card-1')
+    Card1.style.backgroundColor = randomColor();
+  });
+document.getElementById('card-2').addEventListener("mouseover", function(){
+    const Card2 = document.getElementById('card-2')
+    Card2.style.backgroundColor = randomColor();
+  });
+document.getElementById('card-3').addEventListener("mouseover", function(){
+    const Card3 = document.getElementById('card-3')
+    Card3.style.backgroundColor = randomColor();
+  });
+document.getElementById('card-4').addEventListener("mouseover", function(){
+    const Card4 = document.getElementById('card-4')
+    Card4.style.backgroundColor = randomColor();
+  });
+document.getElementById('card-5').addEventListener("mouseover", function(){
+    const Card5 = document.getElementById('card-5')
+    Card5.style.backgroundColor = randomColor();
+  });
+document.getElementById('card-6').addEventListener("mouseover", function(){
+    const Card6 = document.getElementById('card-6')
+    Card6.style.backgroundColor = randomColor();
+  });
+
+
